@@ -1,0 +1,563 @@
+@import '_fonts'
+@import '_vars'
+@import '_header'
+@import '_footer'
+@import '_responsive'
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  font-family: 'Montserrat'
+body
+  height: 100vh
+  
+  .landing-container
+    section
+      background-image: url(../img/header-bg.jpg)
+      background-position: center
+      background-size: cover
+      background-repeat: no-repeat
+      height: 100vh
+      width: 100vw
+      .nav-link
+        background-color: transparent !important
+      .nav-pills .nav-link.active
+        color: #f6c607d3
+
+      .photo img
+        width: 400px
+        padding: 30px 100px
+        cursor: pointer
+      ul 
+        list-style: none
+        display: flex
+        gap: 30px
+        padding: 30px 100px
+        justify-content: flex-end
+        li a
+          text-decoration: none
+          color: white 
+          &:hover
+            color: #f6c607d3
+    .button
+      width: 200px
+      height: 50px
+      border: 1px solid #f6c607d3
+      background-color: #f6c607d3
+      border-radius: 5px
+      position: absolute
+      top: 400px
+      left: 0
+      bottom: 0
+      right: 0
+      margin: auto
+      text-align: center
+      padding-top: 10px
+      cursor: pointer
+      &:hover
+        background-color: #ebbd08d3 
+      a
+        text-decoration: none
+        color: white 
+        font-weight: bold
+
+    .section2 .article2
+      text-align: center
+      padding: 50px
+      h1
+        font-weight: bold
+    .article3
+      display: flex
+      align-items: center
+      justify-content: space-between
+      .object-custom
+        display: grid
+        align-items: center
+        justify-content: center
+        gap: 10px
+        i
+          background-color: #f6c607d3
+          width: 150px
+          height: 150px
+          font-size: 80px
+          color: white
+          border: 1px solid yellow
+          border-radius: 50%
+          text-align: center
+          padding-top: 35px
+          margin: auto
+      h5 
+        font-weight: bold
+        text-align: center
+        padding-top: 20px
+      p
+        text-align: center
+        padding-left: 20px
+  .section3
+    margin: 100px
+    padding-bottom: 100px
+    .article4
+      text-align: center
+      padding: 100px
+      h1
+        font-weight: bold
+      p
+        font-style: italic
+    .article5
+      display: grid
+      grid-template-columns: repeat(3 ,1fr)
+      gap: 20px
+      max-width: 1140px
+      margin: 0 auto
+      .object4
+        background-color: white
+      .object4 img
+        width: 100%
+        padding-bottom: 20px
+      .object4 .text3
+        text-align: center
+      .object4 h5 
+        font-weight: bold
+      .object4 p 
+        font-style: italic
+      .object4 .click
+        i
+          font-size: 50px
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        margin: 0 auto
+        opacity: 0
+        border-radius: 0px
+        &:hover
+          opacity: 100
+          width: 100%
+          height: 275px
+          background-color: #f6c607d3
+      .object5
+        background-color: white
+        img
+          width: 100%
+          padding-bottom: 20px
+        .text4
+          text-align: center
+        h5
+          font-weight: bold
+        p 
+          font-style: italic
+        .figure2
+          position: relative
+          .click2
+            i
+              font-size: 50px
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+            margin: 0 auto
+            opacity: 0
+            border-radius: 0px
+            &:hover
+              opacity: 100
+              width: 100%
+              height: 275px
+              background-color: #f6c607d3
+      .object6
+        background-color: white
+        img
+          width: 100%
+          padding-bottom: 20px
+        .text5
+          text-align: center
+        h5
+          font-weight: bold
+        p 
+          font-style: italic
+        .figure2
+          position: relative
+          .click2
+            i
+              font-size: 50px
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+            margin: 0 auto
+            opacity: 0
+            border-radius: 0px
+            &:hover
+              opacity: 100
+              width: 100%
+              height: 275px
+              background-color: #f6c607d3
+      .object7
+        background-color: white
+      img
+        width: 100%
+        padding-bottom: 20px
+      .text6
+        text-align: center
+      h5 
+        font-weight: bold
+      p 
+        font-style: italic
+      .figure2
+          position: relative
+          .click2
+            i
+              font-size: 50px
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+            margin: 0 auto
+            opacity: 0
+            border-radius: 0px
+            &:hover
+              opacity: 100
+              width: 100%
+              height: 275px
+              background-color: #f6c607d3
+      .object8
+        background-color: white
+      img
+        width: 100%
+        padding-bottom: 20px
+      .text7
+        text-align: center
+      .object8 h5 
+        font-weight: bold
+      .object8 p
+        font-style: italic
+      .object9
+        background-color: white
+      .object9 img
+        width: 100%
+        padding-bottom: 20px
+      .object9 .text8
+        text-align: center
+      .object9 h5 
+        font-weight: bold
+      .object9 p 
+        font-style: italic
+  .article6
+      text-align: center
+  .article6 h1 
+    font-weight: bold
+  .article6 p 
+    font-style: italic
+  .article7
+    display: grid
+    align-items: center
+    justify-content: center
+  .article7 .object10
+    display: flex
+    padding-top: 50px
+    gap: 50px
+    .text9
+      text-align: right
+    .text9 h5 
+      font-weight: bold
+    .photo1
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 150px
+      height: 150px
+      position: relative
+    .photo1 img
+      width: 140px
+      height: 140px
+      position: absolute
+      left: 0
+      bottom: 0
+      top: 0
+      right: 0
+      margin: auto
+      border: 1px solid transparentize
+      border-radius: 50%
+    .line1
+      width: 2px
+      height: 170px
+      background-color: gray
+      position: absolute
+      left: 0
+      bottom: 0
+      top: 230px
+      right: 0
+      margin: auto
+  .article7 .object11
+    display: flex
+    padding-left: 525px
+    padding-top: 150px
+    gap: 50px
+    .text10 h5 
+      font-weight: bold
+    .photo2
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 150px
+      height: 150px
+      position: relative
+    .photo2 img
+      width: 141px
+      height: 140px
+      border: 1px solid transparentize
+      border-radius: 50%
+    .line2
+      width: 2px
+      height: 170px
+      background-color: gray
+      position: absolute
+      left: 0
+      bottom: 0
+      top: 230px
+      right: 0
+      margin: auto
+  .article7 .object12
+    display: flex
+    padding-top: 150px
+    gap: 50px
+    padding-left: 35px
+    .text11
+      text-align: right
+    .text11 h5 
+      font-weight: bold
+    .photo3
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 150px
+      height: 150px
+      position: relative
+    .photo3 img
+      width: 141px
+      height: 140px
+      border: 1px solid transparentize
+      border-radius: 50%
+    .line3
+      width: 2px
+      height: 170px
+      background-color: gray
+      position: absolute
+      left: 0
+      bottom: 0
+      top: 230px
+      right: 0
+      margin: auto
+  .article7 .object13
+    display: flex
+    padding-top: 150px
+    gap: 50px
+    padding-left: 530px
+    .text12 h5 
+      font-weight: bold
+    .photo4
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 150px
+      height: 150px
+      position: relative
+    .photo4 img
+      width: 141px
+      height: 140px
+      border: 1px solid transparentize
+      border-radius: 50%
+    .line4
+      width: 2px
+      height: 170px
+      background-color: gray
+      position: absolute
+      left: 0
+      bottom: 0
+      top: 230px
+      right: 0
+      margin: auto
+  .article7 .object14
+    padding-top: 150px
+    padding-left: 530px
+    .photo5
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 150px
+      height: 150px
+      background-color: #f6c607d3
+    .photo5 p 
+      text-align: center
+      padding: 35px
+      color: white
+      font-weight: bold
+  .article8
+    text-align: center
+    padding: 100px
+    margin-top: 100px
+  .article8 h1 
+    font-weight: bold
+  .article8 p
+    font-style: italic
+  .article9
+    display: flex
+    justify-content: space-between
+    padding-left: 20px
+    .photo6
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 260px
+      height: 260px
+      position: relative
+    .photo6 img
+      border: 1px solid transparentize
+      border-radius: 50%
+      width: 250px
+      height: 250px
+      position: absolute
+      top: 0
+      bottom: 0
+      right: 0
+      left: 0
+      margin: auto
+    .text-complete
+      text-align: center
+      padding-top: 20px
+      h5 
+        font-weight: bold
+    .icon
+      display: flex
+      gap: 20px
+      color: white
+      font-size: 20px
+      text-align: center
+      padding-left: 45px
+      cursor: pointer
+    .icon .fa-twitter
+      border: 1px solid black 
+      border-radius: 50%
+      background-color: black 
+      width: 40px
+      height: 40px
+      padding-top: 10px
+      &:hover
+        background-color: #000000cd
+    .icon .fa-facebook-f
+      border: 1px solid black 
+      border-radius: 50%
+      background-color: black 
+      width: 40px
+      height: 40px
+      padding-top: 10px
+      &:hover
+        background-color: #000000cd
+    .icon .fa-linkedin-in
+      border: 1px solid black 
+      border-radius: 50%
+      background-color: black 
+      width: 40px
+      height: 40px
+      padding-top: 10px
+      &:hover
+        background-color: #000000cd
+    .photo7
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 260px
+      height: 260px
+      position: relative
+    .photo7 img
+      border: 1px solid transparentize
+      border-radius: 50%
+      width: 250px
+      height: 250px
+      position: absolute
+      top: 0
+      bottom: 0
+      right: 0
+      left: 0
+      margin: auto
+    .photo8
+      border: 5px solid gray 
+      border-radius: 50%
+      width: 260px
+      height: 260px
+      position: relative
+    .photo8 img
+      border: 1px solid transparentize
+      border-radius: 50%
+      width: 250px
+      height: 250px
+      position: absolute
+      top: 0
+      bottom: 0
+      right: 0
+      left: 0
+      margin: auto
+  .article10
+    padding-top: 50px
+    text-align: center
+    padding-bottom: 100px
+  .article11
+    display: flex
+    gap: 100px
+    align-items: center
+    justify-content: center
+  .article11 img
+    width: 150px
+    height: 150px
+    cursor: pointer
+  .section7
+    background-image: url(../img/map-image.png)
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+  .article12
+    padding-top: 100px
+    text-align: center
+    h1 
+      color: white 
+      font-weight: bold
+    p
+      font-style: italic
+      color: gray
+  
+
+  .forms .form-control
+    width: 600px
+    height: 70px
+    margin-left: 130px
+    
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+   
+      
+      
+      
+
+        
+      
+
+
+       
+
+
+
+
+
+
+
+
+          
+
+
+    
+   
